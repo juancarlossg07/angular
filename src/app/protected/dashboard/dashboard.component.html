@@ -1,0 +1,29 @@
+<div class="limiter">
+    <div class="container-login100" style="background-image: url('../../../../assets/images/bg-01.jpg');">
+        <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+
+            <h1> Dashboard </h1>
+            <hr>
+            <p>
+                ESta pagina solo funciona solo si estas autenticado
+            </p>
+            
+            <h4> User Info</h4>
+            <pre>{{ usuario | json }}</pre>
+
+            <div class="container-login100-form-btn">
+                <div class="wrap-login100-form-btn">
+                    <div class="login100-form-bgbtn"></div>
+                   
+                    <button  (click)="logout()" class="login100-form-btn">
+                        Logout
+                    </button>
+                    
+                </div>
+            </div>
+
+            
+            
+        </div>
+    </div>
+</div>
